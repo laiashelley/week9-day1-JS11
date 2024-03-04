@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="javascript-prediccion-astrologica.css">
+    <title>AstroVisión: Descubre tu Destino Estelar</title>
+</head>
+<body>
+    
+    <img src="/img/bola.png" alt="bola-adivinacion">
+    <h1>¡Bienvenido a AstroVisión!</h1>
+    <h3>AstroVisión te invita a explorar los misterios del cosmos y descubrir tu destino estelar a través de predicciones precisas y consejos personalizados basados en la astrología. Sumérgete en un viaje cósmico donde encontrarás orientación para enfrentar los desafíos de la vida con confianza y claridad, mientras exploras el fascinante mundo de los horóscopos y las influencias celestiales.</h3>
+
+    <label for="horoscopo">Introduce aquí tu horoscopo:</label>
+    <input type="text" id="horoscopo">
+    <input type="button" id="buttons" value="Descubre que te depara el dia!" onclick="descubreHoroscopo()">
+
+    <div class="image-text">
+        <div class="imagenHoroscopo"></div>
+        <p id="textoHoroscopo"></p>
+    </div>
+
+    <input type="button" id="buttons" value="Restablecer" onclick="restablecer()">
+
+    <script src="javascript-prediccion-astrologica.js"></script>
+</body>
+</html>

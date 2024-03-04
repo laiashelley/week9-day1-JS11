@@ -1,0 +1,97 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/space.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 228, 207);
+    text-shadow: 3px 3px 3px rgb(22, 12, 12);
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 228, 207);
+    word-spacing: 0.5mm;
+    letter-spacing: 0.5mm;
+    text-align: center;
+    width: 50%;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 228, 207);
+    word-spacing: 0.5mm;
+    letter-spacing: 0.1mm;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#horoscopo{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: black;
+    color: rgb(240, 228, 207);
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    font-size: x-large;
+    text-align: center;
+}
+
+#buttons{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: black;
+    color: rgb(240, 228, 207);
+    border: thin;
+    box-shadow: 2px 2px 2px whitesmoke;
+    border-radius: 5px;
+    font-size: x-large;
+}
+
+#buttons:hover{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(240, 228, 207);
+    color: black;
+    border: thin;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.image-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(240, 228, 207);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    width: 500px;
+    letter-spacing: 0.5mm;
+    display: none;
+    p{
+        border: 2px solid rgb(240, 228, 207);
+        border-radius: 5px;
+        padding: 50px;
+    }
+}
+
+.imagenHoroscopo{
+    border-radius: 5px;
+    border: 2px solid rgb(240, 228, 207);
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
